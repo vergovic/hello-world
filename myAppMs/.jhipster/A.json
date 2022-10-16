@@ -1,0 +1,23 @@
+{
+  "applications": ["myAppMs", "myApp1"],
+  "changelogDate": "20221016123338",
+  "databaseType": "sql",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "a",
+  "fields": [],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "A",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "b",
+      "otherEntityRelationshipName": "a",
+      "relationshipName": "b",
+      "relationshipType": "one-to-many"
+    }
+  ],
+  "service": "no"
+}
